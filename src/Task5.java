@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
-
 public class Task5 {
+    public static void main(String[] args) {
+
+        // Task 5: Increasing star triangle
+        for (int row = 1; row <= 5; row++) {
+
+            for (int col = 1; col <= row; col++) {
+                System.out.print("* ");
+            }
+
+            System.out.println();
+        }
+
+    }
 }
